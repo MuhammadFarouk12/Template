@@ -1,0 +1,110 @@
+body{
+    overflow-x: hidden;
+}
+.bg-1{
+    background-image:url(banner.jpg);
+    min-height:100vh;
+    padding:0px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.over-layer{
+    background-color: rgba(75, 75, 93, 0.85);
+    min-height:100vh;
+}
+.bg-1 .content ul li a:hover{
+    text-decoration: underline darkgray !important;
+}
+.bg-danger , .bg-success , .bg-warning  , .bg-primary{
+    background-color: transparent !important;
+}
+.c{
+    position: absolute;
+    right:-100%;
+    background-color: #6cc091;
+    width: 50%;
+    top:0px;
+    transition: 1s;
+    z-index:0;
+}
+.c ul{
+    display: flex;
+    flex-direction: column;
+    height:100vh;
+    align-items: center;
+    justify-content: space-between;
+}
+.left{
+    right:0%;
+}
+i{
+    position: relative;
+    z-index:1;
+}
+.green{
+    color:#6cc091;
+}
+.bg-green{
+    background-color:#6cc091;
+}
+.border-black-trans{
+    border-color:rgba(0, 0, 0, 0.5);
+}
+/* Respoinsive borders */
+
+.border-trans{
+    border-color:rgba(255, 255, 255, 0.500) !important;
+}
+.h-100vh{
+    height:500px;
+}
+.get-started-btn{
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    background-color: transparent;
+    border: 3px #6cc091 solid;
+    color: #6cc091 !important;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: .75em;
+    font-weight: 400;
+    height: 3.75em;
+    letter-spacing: 2px;
+    padding: 0 4em;
+    text-transform: uppercase;
+}
+.get-started-btn:hover{
+    background-color: #6cc09033;
+}
+button:focus , input:focus , textarea:focus{
+    outline: none;
+}
+.border-solid{
+    color: white;
+    border-style: solid;
+}
+.border-solid::placeholder{
+    color:rgba(255, 255, 255, 0.541)
+}
+textarea{
+    height:30vh;
+}
+textarea:focus , input:focus{
+    border:2.5px #0080003b solid !important;
+}
+.send-message-btn{
+    border:white solid 2px;
+    background-color: transparent;
+    padding:5px 40px;
+    color:white;
+    transition: 0.5s;
+}
+.send-message-btn:hover{
+    background-color: rgba(255, 255, 255, 0.171);
+}
+.min-h-100vh{
+    min-height: 500px !important;
+}
+.min-h-100vh{
+    min-height: 500px !important;
+}
